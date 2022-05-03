@@ -184,3 +184,24 @@ void main()
     getch();
     closegraph();
 }
+
+OUTPUT:
+minimum coord: x= 200
+	y=200
+maximum coord: x=400
+	y=400
+number of sides to be clipped: 3
+	coordinates= 150 
+	300
+	300
+	150
+	300
+	300
+	
+SECOND OUTPUT:
+coordinates: 100
+	110
+	340
+	210
+	300
+	380
