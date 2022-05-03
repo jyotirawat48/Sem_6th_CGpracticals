@@ -378,6 +378,9 @@ slope: 0.3
 	y-intercept= 200
 
 SECOND OUTPUT:
+vertex1: x1=100,y1=200
+	vertex2: x1=400,y1=200
+		vertex3: x1=500,y2:100
 slope: 0
 	y-intercept= 250
 	
