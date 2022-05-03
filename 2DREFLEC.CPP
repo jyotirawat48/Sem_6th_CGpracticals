@@ -98,7 +98,6 @@ result[i][j]=r[i][j];
 }
 
 
-
 void transformations::reflection(double m,double c)
 {
 double angle=atan(m);
@@ -182,7 +181,7 @@ double angle,m,n,slope,intercept,a,b,c,d;
 
 do
     {
-cout<<"\n\n\tTWO DIMENSIONAL TRANSFORMATIONS\n";
+cout<<"\n\n\tTWO DIMENSIONAL TRANSFORMATION\n";
 cout<<"\nEnter the details of a triangle(i.e. 2-D object)";
        t1.get_vertices();
 	initgraph(&gd,&gm,"C:\\Turboc3\\BGI");
@@ -198,7 +197,7 @@ cout<<"\nEnter the details of a triangle(i.e. 2-D object)";
 			cin>>intercept;
 
 			t1.reflection(slope,intercept);
-			break;
+			
 
 	closegraph();
 
@@ -208,3 +207,19 @@ cin>>ch1;
 
 }while(ch1=='y' || ch1=='Y');
 }
+
+
+OUTPUT:
+vertex1: x1=100, y1=100
+	vertex2: x1=140,y1=50
+		vertex3: x1=180,y1=100
+FOR REFLECTION:
+slope: 0.3
+	y-intercept= 200
+
+SECOND OUTPUT:
+vertex1: x1=100,y1=200
+	vertex2: x1=400,y1=200
+		vertex3: x1=500,y2:100
+slope: 0
+	y-intercept= 250
