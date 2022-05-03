@@ -368,3 +368,16 @@ cin>>ch1;
 
 }while(ch1=='y' || ch1=='Y');
 }
+
+OUTPUT:
+vertex1: x1=100, y1=100
+	vertex2: x1=140,y1=50
+		vertex3: x1=180,y1=100
+FOR REFLECTION:
+slope: 0.3
+	y-intercept= 200
+
+SECOND OUTPUT:
+slope: 0
+	y-intercept= 250
+	
